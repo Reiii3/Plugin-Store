@@ -1,2 +1,0 @@
-# Plugin-Store
-AxPlugin Store 
