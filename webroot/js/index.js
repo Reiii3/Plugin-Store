@@ -20,6 +20,7 @@ class Main {
         this.blacktouchArea = document.getElementById('black-touch');
         this.idBtnShowMenuNavigasi = document.getElementById('btn-show-menu');
         this.idLayoutNavigasi = document.getElementById('list-navigasi');
+        this.idLayoutHome = document.getElementById('home');
         this.initListener();
     }
 }

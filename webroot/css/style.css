@@ -65,6 +65,38 @@ body {
     transition: 0.3s ease-in-out;
 }
 
+.layout-container-all {
+    margin-top: 9%;
+    padding: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.container-layout-card-list {
+    background-color: #333;
+    width: 48%;
+    height: 350px;
+    margin-top: 2%;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.placeholder-icon {
+    width: 100%;
+    height: 280px;
+    border-radius: 2vw 2vw 0 0;
+}
+
+.tag-name {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5%;
+}
 .black-area {
     position: fixed;
     top: 0;
