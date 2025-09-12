@@ -28,7 +28,7 @@ body {
 }
 
 .btn-show-menu {
-    font-size: 4.5vw;
+    font-size: 20px;
     padding: 1.5vw;
     background-color: #444;
     border-radius: 1.5vw;
@@ -52,7 +52,7 @@ body {
 }
 
 .btn-option-list {
-    font-size: 3.5vw;
+    font-size: 15px;
     font-weight: 600;
     width: 100%;
     text-align: center;
