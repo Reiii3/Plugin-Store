@@ -14,13 +14,45 @@ class Main {
             this.blacktouchArea.style.display = 'none';
             this.idLayoutNavigasi.style.transform = 'translateX(-100%)';
         });
+        this.idBtnHome.addEventListener('click', () => {
+            const dataLayoutNone = [this.idLayoutAbout, this.idLayoutDeveloper];
+            dataLayoutNone.forEach(element => {
+                element.style.display = 'none';
+            });
+            this.idLayoutHome.style.display = 'flex';
+            this.idLayoutNavigasi.style.transform = 'translateX(-100%)';
+            this.blacktouchArea.style.display = 'none';
+        });
+        this.idBtnAbout.addEventListener('click', () => {
+            const dataLayoutNone = [this.idLayoutHome, this.idLayoutDeveloper];
+            dataLayoutNone.forEach(element => {
+                element.style.display = 'none';
+            });
+            this.idLayoutAbout.style.display = 'block';
+            this.idLayoutNavigasi.style.transform = 'translateX(-100%)';
+            this.blacktouchArea.style.display = 'none';
+        });
+        this.idBtnDeveloper.addEventListener('click', () => {   
+            const dataLayoutNone = [this.idLayoutHome, this.idLayoutAbout];
+            dataLayoutNone.forEach(element => {
+                element.style.display = 'none';
+            });
+            this.idLayoutDeveloper.style.display = 'block';
+            this.idLayoutNavigasi.style.transform = 'translateX(-100%)';
+            this.blacktouchArea.style.display = 'none';
+        });
     }
 
     initDocumnet() {
+        this.idBtnHome = document.getElementById('btn-home');
+        this.idBtnAbout = document.getElementById('btn-about');
+        this.idBtnDeveloper = document.getElementById('btn-developer');
         this.blacktouchArea = document.getElementById('black-touch');
         this.idBtnShowMenuNavigasi = document.getElementById('btn-show-menu');
         this.idLayoutNavigasi = document.getElementById('list-navigasi');
         this.idLayoutHome = document.getElementById('home');
+        this.idLayoutAbout = document.getElementById('about');
+        this.idLayoutDeveloper = document.getElementById('developer');
         this.initListener();
     }
 }
