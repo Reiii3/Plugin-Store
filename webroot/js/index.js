@@ -41,18 +41,34 @@ class Main {
             this.idLayoutNavigasi.style.transform = 'translateX(-100%)';
             this.blacktouchArea.style.display = 'none';
         });
+        this.idBtnBack.addEventListener('click', () => {
+            const layoutTag = document.querySelector('.tag-layout');
+            layoutTag.style.transform = 'translateY(-100%)';
+            setTimeout(() => {
+                layoutTag.style.display = 'none';
+                setTimeout(() => {
+                    this.idLayoutSelecction.style.transform = 'translateY(100%)';
+                }, 400);
+            }, 300);
+        });
+        this.btnDowload.addEventListener('click', () => {
+            window.location.href = this.btnDowload.getAttribute('link');
+        })
     }
 
     initDocumnet() {
         this.idBtnHome = document.getElementById('btn-home');
         this.idBtnAbout = document.getElementById('btn-about');
         this.idBtnDeveloper = document.getElementById('btn-developer');
+        this.idBtnBack = document.getElementById('btn-back');
+        this.btnDowload = document.getElementById('btn-download');
         this.blacktouchArea = document.getElementById('black-touch');
         this.idBtnShowMenuNavigasi = document.getElementById('btn-show-menu');
         this.idLayoutNavigasi = document.getElementById('list-navigasi');
         this.idLayoutHome = document.getElementById('home');
         this.idLayoutAbout = document.getElementById('about');
         this.idLayoutDeveloper = document.getElementById('developer');
+        this.idLayoutSelecction = document.getElementById('selection-layout');
         this.initListener();
     }
 }
