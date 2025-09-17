@@ -5,7 +5,7 @@ class Load {
     }
 
     loadProcess() {
-        fetch("/data/dataPlugin/data.json")
+        fetch("https://reiii3.github.io/Plugin-Store/data/dataPlugin/data.json")
         .then(response => response.json())
         .then(data => {
             const dataPath = Object.values(data.dataPlugin);
