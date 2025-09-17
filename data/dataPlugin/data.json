@@ -12,14 +12,14 @@
             "version": "2.0.5",
             "id": "NVG205",
             "image": "./data/assetPlugin/NoxG.png",
-            "link": ""
+            "link": "https://sfl.gl/7PGG"
         },
         "Doxxel": {
             "name": "Doxxel",
             "version": "1.0.5",
             "id": "DXL105",
             "image": "../data/assetPlugin/Doxxel.jpg",
-            "link": ""
+            "link": "https://sfl.gl/SxUl"
         }
     }
 }
