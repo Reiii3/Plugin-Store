@@ -80,6 +80,23 @@ body {
 .layout-container {
     display: none;
     margin-top: 12%;
+    padding: 1.5vw;
+}
+
+.contaiber-about-forum {
+    background-color: #272727;
+    padding: 2vw;
+    border-radius: 1.4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.container-about-dukungan {
+    background-color: #272727;
+    padding: 2vw;
+    margin-top: 2%;
+    border-radius: 2vw;
 }
 
 .container-layout-card-list {
@@ -111,6 +128,12 @@ body {
     gap: 2vw;
 }
 
+.container-list-forum {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
 .layout-deskripsi-plugin {
     width: 100%;
     display: flex;
@@ -129,6 +152,44 @@ body {
     justify-content: center;
     gap: 1vw;
     border-radius: 1.5vw;
+}
+
+.layout-list {
+    background-color: #222222;
+    padding: 2vw;
+    border-radius: 1vw;
+}
+
+.layout-list .tag-element {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.tag-element .judul {
+    color: #fff;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.tag-element .deskripsi {
+    color: #7f7f7f;
+    font-size: 2.7vw;
+    font-family: 'Monospace', sans-serif;
+}
+
+.btn-join-forum {
+    background-color: #42a727;
+    padding: 2vw;
+    border-radius: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.btn-join-forum p {
+    font-size: 4vw;
 }
 
 .placeholder-icon {
