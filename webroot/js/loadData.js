@@ -16,9 +16,10 @@ class Load {
         fetch("https://reiii3.github.io/Plugin-Store/data/dataPlugin/data.json")
         .then(response => response.json())
         .then(data => {
-            const dataPath = Object.values(data.dataPlugin);
+            const dataPath = Object.values(data.dataBase);
             const idChild = document.getElementById('home');
             dataPath.forEach(dataParse => {
+                console.log(dataParse);
                 const card = document.createElement('div')
                 const layout = `
                     <div class="placeholder-icon">
