@@ -1,25 +1,16 @@
 {
-    "dataBase": {
-        "Noxvex": {
-            "name": "NoxVex",
-            "version": "1.5.0",
-            "id": "NVX150",
-            "image": "../data/assetPlugin/NoxVex.jpg",
-            "link": ""
-        },
-        "NoxG": {
-            "name": "NoxG",
-            "version": "2.0.5",
-            "id": "NVG205",
-            "image": "./data/assetPlugin/NoxG.png",
-            "link": "https://sfl.gl/7PGG"
-        },
-        "Doxxel": {
-            "name": "Doxxel",
-            "version": "1.0.5",
-            "id": "DXL105",
-            "image": "../data/assetPlugin/Doxxel.jpg",
-            "link": "https://sfl.gl/SxUl"
-        }
-    }
+  "Noxvex": {
+    "name": "NoxVex",
+    "version": "1.5.0",
+    "id": "NVX150",
+    "image": "../data/assetPlugin/NoxVex.jpg",
+    "link": ""
+  },
+  "Doxxel": {
+    "name": "Doxxel",
+    "version": "1.0.5",
+    "id": "DXL105",
+    "image": "../data/assetPlugin/Doxxel.jpg",
+    "link": "https://sfl.gl/SxUl"
+  }
 }
